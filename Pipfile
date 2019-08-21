@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+black = "*"
+pre-commit = "*"
+jupytext = "*"
+
+[packages]
+selenium = "*"
+
+[requires]
+python_version = "3.6"
