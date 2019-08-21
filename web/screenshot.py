@@ -39,8 +39,8 @@ def grab_screenshot(
     if jupyter:
         from IPython.display import Image
 
-        return Image("homepage.png")
+        return Image(out_image)
 
 
 # %%
-grab_screenshot("http://lucasdurand.xyz", "my_website.png", jupyter=True)
+grab_screenshot("http://lucasdurand.xyz", "../my_website.png", jupyter=True)
